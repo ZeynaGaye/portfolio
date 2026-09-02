@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Seynabou Gaye — Développeuse Full Stack &amp; Data Analyst</title>
+<meta name="description" content="Portfolio de Seynabou Gaye, Ingénieure en Systèmes d'Information, Développeuse Full Stack & Data Analyst à Dakar, Sénégal. Fondatrice de BeautyHub." />
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="bg-glow" aria-hidden="true"></div>
+
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#top" class="logo">SG<span>.</span></a>
+    <nav class="nav" id="nav">
+      <a href="#about">À propos</a>
+      <a href="#approach">Ma façon de travailler</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero-grid">
+      <div class="hero-text-col">
+        <p class="eyebrow reveal">Seynabou Gaye · Développeuse Full-Stack &amp; Data Analyst</p>
+        <h1 class="reveal">Je conçois et je construis des produits numériques qui tiennent la route.</h1>
+        <p class="hero-text reveal">
+          Ingénieure en Systèmes d'Information basée à Dakar. J'analyse le besoin du client et j'y réponds
+          de la manière la plus simple, en passant par une architecture solide et scalable — de la
+          conception au produit fini. J'ai fondé <strong>BeautyHub</strong> pour prouver que ça marche en vrai.
+        </p>
+        <div class="hero-actions-row reveal">
+          <div class="info-card info-card-accent">
+            <span class="info-card-label">Identité</span>
+            <span class="info-card-title">SG · Seynabou Gaye</span>
+            <span class="info-card-text">Ingénieure SI (UCAD) · Fondatrice de BeautyHub.</span>
+          </div>
+          <div class="info-card">
+            <span class="info-card-label">Base</span>
+            <span class="info-card-title">Dakar, Sénégal</span>
+            <span class="info-card-text">Afrique de l'Ouest, fuseau GMT.</span>
+          </div>
+          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-ghost">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero-photo-col reveal">
+        <div class="hero-photo-frame">
+          <img src="profile.jpg" alt="Photo de Seynabou Gaye" class="hero-photo" onerror="this.parentElement.classList.add('no-photo')" />
+          <div class="hero-photo-placeholder">Ajoute<br>profile.jpg</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section container">
+    <p class="section-label reveal">À propos</p>
+    <h2 class="section-title reveal">Mon histoire</h2>
+    <div class="about-grid">
+      <div class="about-text-col">
+        <p class="about-text reveal">
+          Tout est parti d'un constat très concret : à Dakar, trouver une coiffeuse fiable ou un salon de
+          qualité tient encore beaucoup du bouche-à-oreille et du hasard. Passionnée de coiffure afro
+          depuis toujours et ingénieure en systèmes d'information de formation, j'ai voulu régler ce
+          problème avec la technologie plutôt qu'avec un énième carnet d'adresses — c'est devenu
+          <strong>BeautyHub</strong>.
+        </p>
+        <p class="about-text reveal">
+          Entre mon Master en Systèmes d'Information Répartis à l'UCAD et des missions en freelance puis
+          en startup, j'ai construit une pratique qui couvre tout le cycle produit : architecture backend
+          (Java/Spring&nbsp;Boot, Laravel), interfaces web et mobile (Angular, Flutter), et plus récemment
+          l'intégration d'IA pour rendre les produits vraiment utiles — comme la recherche visuelle par
+          photo que j'ai construite sur BeautyHub avec l'API Gemini Vision.
+        </p>
+        <p class="about-text reveal">
+          Et parce que je reste connectée au terrain, je pratique moi-même la coiffure afro professionnelle
+          — ça m'aide à concevoir des outils qui collent aux besoins réels des clientes et des coiffeurs,
+          pas à ceux qu'on imagine depuis un cahier des charges.
+        </p>
+      </div>
+      <div class="about-stats reveal">
+        <div class="stat">
+          <span class="stat-num">2+</span>
+          <span class="stat-label">ans d'expérience dev</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">5</span>
+          <span class="stat-label">projets majeurs</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">3</span>
+          <span class="stat-label">langues parlées</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">1</span>
+          <span class="stat-label">startup fondée</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section id="approach" class="section container">
+    <p class="section-label reveal">Ma façon de travailler</p>
+    <h2 class="section-title reveal">Je relie produit, technique et données.</h2>
+    <p class="approach-intro reveal">
+      Concrètement, ça veut dire quoi ? Une architecture qui reste lisible, des interfaces cohérentes, et
+      de la donnée qui sert vraiment le produit — le détail par domaine juste en dessous.
+    </p>
+    <div class="approach-grid">
+      <div class="quick-read-card reveal">
+        <span class="section-label" style="margin-bottom:0.6rem;">Lecture rapide</span>
+        <p class="quick-read-lead">
+          Une bonne architecture est une architecture qu'on ne remarque pas : elle tient, elle reste
+          lisible, et elle laisse le produit évoluer sans tout casser.
+        </p>
+        <p class="quick-read-text">
+          Je choisis mes outils en fonction du problème réel à résoudre, jamais l'inverse. Chaque techno
+          ou service externe ajouté doit se justifier par un usage concret.
+        </p>
+        <div class="approach-tags">
+          <div class="approach-tag"><span>Approche</span>Pensée produit</div>
+          <div class="approach-tag"><span>Méthode</span>Clean Code &amp; tests</div>
+          <div class="approach-tag"><span>Résultat</span>Solutions fiables</div>
+        </div>
+      </div>
+      <div class="pillar-list">
+        <div class="pillar-card reveal">
+          <h4>Backend &amp; Architecture</h4>
+          <p>Je conçois des architectures REST et des modèles de données (Java/Spring Boot, Laravel, Node.js) qui restent lisibles quand le produit grandit.</p>
+        </div>
+        <div class="pillar-card reveal">
+          <h4>Frontend &amp; Mobile</h4>
+          <p>Angular et Flutter pour des interfaces cohérentes sur web et mobile, pensées pour rester maintenables sur la durée.</p>
+        </div>
+        <div class="pillar-card reveal">
+          <h4>Data &amp; IA</h4>
+          <p>ETL, BI, PostGIS, et intégration d'API comme Gemini Vision — j'utilise la donnée quand elle rend un produit vraiment plus intelligent.</p>
+        </div>
+        <div class="pillar-card reveal">
+          <h4>Qualité &amp; DevOps</h4>
+          <p>Tests automatisés (JUnit), CI/CD (GitHub Actions), Docker : je livre du code sur lequel une équipe peut compter.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section container">
+    <p class="section-label reveal">Réalisations</p>
+    <h2 class="section-title reveal">Projets</h2>
+
+    <div class="project-featured reveal">
+      <div class="project-gallery">
+        <img src="media/beautyhub-home.jpg" alt="Page d'accueil BeautyHub" />
+        <img src="media/beautyhub-visual-search.jpg" alt="Recherche visuelle par photo, BeautyHub" />
+        <img src="media/beautyhub-booking.jpg" alt="Réservation et paiement, BeautyHub" />
+        <img src="media/beautyhub-dashboard.jpg" alt="Espace employeur, BeautyHub" />
+      </div>
+      <div class="project-featured-text">
+        <span class="badge">Projet entrepreneurial · Fondatrice · 2024 – Présent</span>
+        <h3>BeautyHub</h3>
+        <p>
+          À Dakar, dénicher une coiffeuse fiable ou un salon de qualité relève souvent du bouche-à-oreille.
+          BeautyHub règle ce problème avec une plateforme géolocalisée qui connecte clientes, coiffeurs
+          indépendants et salons.
+        </p>
+        <ul class="feature-list">
+          <li>Full-stack de bout en bout : Spring Boot, Angular, Flutter (Clean Architecture / GetX).</li>
+          <li>Authentification sécurisée avec Keycloak, matching géospatial via PostgreSQL/PostGIS.</li>
+          <li>Recherche visuelle par photo grâce à l'API Gemini Vision, pour matcher un style plutôt qu'un mot-clé.</li>
+          <li>Paiements mobiles locaux intégrés dès le départ : Orange Money, Wave.</li>
+        </ul>
+        <div class="tags">
+          <span>Spring Boot</span><span>Angular</span><span>Flutter</span><span>Keycloak</span><span>PostGIS</span><span>Gemini Vision</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-card-media project-card-media-locked">
+          <div class="project-media-placeholder">🔒 Projet confidentiel (NDA client)</div>
+        </div>
+        <span class="badge badge-outline">ERP Logistique</span>
+        <h3>ERP-CRM Flotte de Taxis</h3>
+        <p>Le défi n'est pas d'afficher des taxis sur une carte, mais de garder chaque position et statut de course cohérents en temps réel entre le backend et l'app des chauffeurs.</p>
+        <div class="tags"><span>Laravel</span><span>Flutter</span><span>REST</span></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-card-media project-card-media-link">
+          <a href="https://homerev.fr/" target="_blank" rel="noopener noreferrer" class="project-media-link-cta">
+            <span class="link-icon">🔗</span>
+            <span>homerev.fr</span>
+          </a>
+        </div>
+        <span class="badge badge-outline">ERP Construction</span>
+        <h3>HomeRev</h3>
+        <p>Un ERP métier pour la rénovation immobilière où devis, métrage, dépenses et paiements doivent rester synchronisés sans jamais désynchroniser le chantier réel.</p>
+        <div class="tags"><span>Angular</span><span>RxJS</span><span>PDF.js</span></div>
+        <a href="https://homerev.fr/" target="_blank" rel="noopener noreferrer" class="project-link">Voir le site ↗</a>
+      </div>
+      <div class="project-card project-card-text-only reveal">
+        <span class="badge badge-outline">Business Intelligence</span>
+        <h3>Projet BI &amp; Data Analysis</h3>
+        <p>Un pipeline ETL complet transformant des données brutes en rapports SSRS exploitables pour la prise de décision — la partie invisible mais critique de la BI.</p>
+        <div class="tags"><span>SSRS</span><span>SSIS</span><span>SQL Server</span><span>ETL</span></div>
+      </div>
+      <div class="project-card project-card-text-only reveal">
+        <span class="badge badge-outline">DevOps</span>
+        <h3>Application Wallet &amp; CI/CD</h3>
+        <p>Un backend Spring Boot pensé dès le départ pour la fiabilité : tests JUnit et pipeline GitHub Actions/Docker qui bloquent tout déploiement non testé.</p>
+        <div class="tags"><span>Spring Boot</span><span>JUnit</span><span>Docker</span><span>GitHub Actions</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUMMARY / CTA -->
+  <section class="section container">
+    <div class="summary-block reveal">
+      <div class="summary-text">
+        <p class="section-label">En bref</p>
+        <h2 class="section-title">Une ingénieure produit, technique et fiable.</h2>
+        <p class="summary-paragraph">
+          Je suis ouverte à de nouvelles opportunités — mission freelance, poste full-stack ou data.
+          Master en Systèmes d'Information Répartis (UCAD) en poche, et l'envie de rejoindre une équipe
+          qui construit des choses sérieuses.
+        </p>
+        <div class="hero-actions">
+          <a href="https://wa.me/221775195609" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Appeler / WhatsApp</a>
+          <a href="#contact" class="btn btn-ghost">Parlons du besoin</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section container contact-section">
+    <p class="section-label reveal">Contact</p>
+    <h2 class="section-title reveal">Travaillons ensemble</h2>
+    <p class="contact-text reveal">
+      Le plus rapide, c'est l'email ou WhatsApp — je réponds généralement sous 24h.
+    </p>
+    <div class="contact-grid reveal">
+      <a href="mailto:seynabougaye957@gmail.com" class="contact-card">
+        <span class="contact-icon">✉️</span>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">seynabougaye957@gmail.com</span>
+      </a>
+      <a href="tel:+221775195609" class="contact-card">
+        <span class="contact-icon">📞</span>
+        <span class="contact-label">Téléphone</span>
+        <span class="contact-value">+221 77 519 56 09</span>
+      </a>
+      <a href="https://linkedin.com/in/seynabou-gaye-589018251" target="_blank" rel="noopener noreferrer" class="contact-card">
+        <span class="contact-icon">💼</span>
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">seynabou-gaye</span>
+      </a>
+      <div class="contact-card contact-card-static">
+        <span class="contact-icon">📍</span>
+        <span class="contact-label">Localisation</span>
+        <span class="contact-value">Dakar, Sénégal</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Seynabou Gaye. Tous droits réservés.</p>
+    <a href="#top" class="back-to-top">Retour en haut ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
